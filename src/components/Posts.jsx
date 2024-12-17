@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Posts = (props) => {
-  return <div className='flex-1 rounded-3xl border bg-white dark:border-gray-700 dark:bg-black text-white'>
+  return <div className='flex-1 rounded-3xl border bg-white dark:border-gray-700 dark:bg-black dark:text-white'>
     <div className="flex flex-col gap-3 p-5">
       <div className="flex items-center justify-between gap-3">
         <div className='flex items-center gap-3'>
