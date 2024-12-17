@@ -3,10 +3,10 @@ import pp from "/public/pp.jpg"
 
 const SharePost = () => {
   return (
-    <div className='sticky top-0 flex w-full flex-col gap-5 rounded-bl-3xl rounded-br-3xl bg-white/60 backdrop-blur-md p-5 border-b border-l border-r'>
+    <div className='sticky top-0 flex w-full flex-col gap-5 rounded-bl-3xl rounded-br-3xl bg-white/60 backdrop-blur-md p-5 border-b border-l border-r dark:border-gray-700 dark:bg-black/60 dark:text-white'>
       <div className='flex gap-5'>
         <img src={pp} alt="" className='w-20 cursor-pointer rounded-full border-2 transition-all duration-200 hover:-translate-y-1 hover:border-blue-500 hover:shadow-xl'/>
-        <textarea placeholder='What is on your mind?' className='w-full resize-none rounded-2xl border p-3 shadow-md outline-none ring-transparent transition-all duration-200 hover:border-gray-50 focus:-translate-y-1 focus:bg-gray-100 focus:shadow-xl focus:ring-2 focus:ring-blue-500'></textarea>
+        <textarea placeholder='What is on your mind?' className='w-full resize-none rounded-2xl border p-3 shadow-md outline-none ring-transparent transition-all duration-200 hover:border-gray-50 focus:-translate-y-1 focus:bg-gray-100 focus:shadow-xl focus:ring-2 focus:ring-blue-500 dark:border-gray-700 dark:bg-black dark:focus:bg-gray-900'></textarea>
       </div>
       <div className='flex flex-wrap items-center justify-between'>
         <div className='flex flex-wrap items-center justify-start gap-3'>

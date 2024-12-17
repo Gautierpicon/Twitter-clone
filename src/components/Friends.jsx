@@ -17,11 +17,11 @@ const Friends = () => {
 
   return (
     <div className='sticky hidden xl:flex items-start justify-start flex-1'>
-      <div className='sticky top-10 flex flex-col w-full gap-5 rounded-3xl border bg-white p-5 text-center md:w-5/6'>
+      <div className='sticky top-10 flex flex-col w-full gap-5 rounded-3xl border bg-white p-5 text-center md:w-5/6 dark:border-gray-700 dark:bg-black dark:text-white'>
         <h3 className='text-4xl font-semibold'>Friends</h3>
         <ul className='flex w-full flex-col gap-5'>
           {friendsList.map((friend, index) => (
-            <li key={index} className='flex cursor-pointer flex-wrap items-center justify-between gap-5 rounded-3xl bg-gray-100 p-3 transition-all duration-300 hover:bg-gray-200'>
+            <li key={index} className='flex cursor-pointer flex-wrap items-center justify-between gap-5 rounded-3xl bg-gray-100 p-3 transition-all duration-300 hover:bg-gray-200 dark:bg-gray-900 dark:hover:bg-gray-800'>
               <div className='flex items-center gap-5'>
                 <img src={friend.img} alt="" className='w-14 rounded-full md:w-16'/>
                 <span className='text-lg font-semibold'>{friend.name}</span>

@@ -1,11 +1,15 @@
 import React from 'react'
 
 const Posts = (props) => {
-  return <div className='flex-1 rounded-3xl border bg-white'>
+  return <div className='flex-1 rounded-3xl border bg-white dark:border-gray-700 dark:bg-black text-white'>
     <div className="flex flex-col gap-3 p-5">
       <div className="flex items-center justify-between gap-3">
         <div className='flex items-center gap-3'>
-          <img src={props.friend} alt="" className='w-16 cursor-pointer rounded-full border-2 outline-none ring-transparent transition-all duration-200 hover:ring-2 hover:ring-blue-500'/>
+          <img
+            src={props.friend} 
+            alt="" 
+            className='w-16 cursor-pointer rounded-full border-2 outline-none ring-transparent transition-all duration-200 hover:ring-2 hover:ring-blue-500'
+          />
           <div className="flex flex-col">
             <h3>
               <span>{props.name}</span>{" "}
@@ -14,13 +18,14 @@ const Posts = (props) => {
             <span className='text-gray-500'>2 hours ago</span>
           </div>
         </div>
+
         <svg 
           xmlns="http://www.w3.org/2000/svg" f
           ill="none" 
           viewBox="0 0 24 24" 
           stroke-width="1.5" 
           stroke="currentColor" 
-          class="size-6"
+          class="w-8 cursor-pointer rounded-full p-1 hover:bg-gray-200 dark:hover:bg-gray-800"
         >
           <path 
             stroke-linecap="round" 
@@ -34,7 +39,7 @@ const Posts = (props) => {
       </p>
       <img src={props.image} alt="" className='rounded-3xl'/>
 
-      <div className="flex items-center justify-center gap-3 rounded-2xl bg-gray-100 p-2">
+      <div className="flex items-center justify-center gap-3 rounded-2xl bg-gray-100 p-2 dark:bg-gray-900">
         
         <div className='flex items-center gap-1'>
           <svg 
