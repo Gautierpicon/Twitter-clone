@@ -2,20 +2,20 @@ import React from 'react'
 import SharePost from './SharePost'
 import Posts from './Posts'
 
-import image1 from "/public/post-images/1.jpg"
-import image2 from "/public/post-images/2.jpg"
-import image3 from "/public/post-images/3.jpg"
-import image4 from "/public/post-images/4.jpg"
-import image5 from "/public/post-images/5.jpg"
-import image6 from "/public/post-images/6.jpg"
-import image7 from "/public/post-images/7.jpg"
-import image8 from "/public/post-images/8.jpg"
+import image1 from "/src/assets/post-images/1.jpg"
+import image2 from "/src/assets/post-images/2.jpg"
+import image3 from "/src/assets/post-images/3.jpg"
+import image4 from "/src/assets/post-images/4.jpg"
+import image5 from "/src/assets/post-images/5.jpg"
+import image6 from "/src/assets/post-images/6.jpg"
+import image7 from "/src/assets/post-images/7.jpg"
+import image8 from "/src/assets/post-images/8.jpg"
 
-import friend1 from "/public/friends/friend-1.jpg"
-import friend2 from "/public/friends/friend-2.jpg"
-import friend3 from "/public/friends/friend-3.jpg"
-import friend4 from "/public/friends/friend-4.jpg"
-import friend5 from "/public/friends/friend-5.jpg"
+import friend1 from "/src/assets/friends/friend-1.jpg"
+import friend2 from "/src/assets/friends/friend-2.jpg"
+import friend3 from "/src/assets/friends/friend-3.jpg"
+import friend4 from "/src/assets/friends/friend-4.jpg"
+import friend5 from "/src/assets/friends/friend-5.jpg"
 
 const Feed = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import pp from "/public/pp.jpg"
+import pp from "/src/assets/pp.jpg"
 
 const SharePost = () => {
   return (

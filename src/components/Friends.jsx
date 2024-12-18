@@ -1,9 +1,9 @@
 import React from 'react'
-import friend1 from "/friends/friend-1.jpg"
-import friend2 from "/friends/friend-2.jpg"
-import friend3 from "/friends/friend-3.jpg"
-import friend4 from "/friends/friend-4.jpg"
-import friend5 from "/friends/friend-5.jpg"
+import friend1 from "/src/assets/friends/friend-1.jpg"
+import friend2 from "/src/assets/friends/friend-2.jpg"
+import friend3 from "/src/assets/friends/friend-3.jpg"
+import friend4 from "/src/assets/friends/friend-4.jpg"
+import friend5 from "/src/assets/friends/friend-5.jpg"
 
 const Friends = () => {
 
