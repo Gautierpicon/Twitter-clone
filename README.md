@@ -2,7 +2,6 @@
 # Twitter-clone
 
 A front-end project for a Twitter-clone application
-![Logo](public/favicon.svg)
 
 
 ## Screenshots
