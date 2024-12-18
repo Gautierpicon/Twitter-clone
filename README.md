@@ -1,4 +1,3 @@
-
 # Twitter-clone
 
 A front-end project for a Twitter-clone application
