@@ -41,7 +41,7 @@ const Posts = (props) => {
 
       <div className="flex items-center justify-center gap-3 rounded-2xl bg-gray-100 p-2 dark:bg-gray-900">
         
-        <div className='flex items-center gap-1'>
+        <div className='flex items-center gap-1 cursor-pointer'>
           <svg 
             xmlns="http://www.w3.org/2000/svg" 
             fill="none" 
@@ -59,7 +59,7 @@ const Posts = (props) => {
           108
         </div>
 
-        <div className='flex items-center gap-1'>
+        <div className='flex items-center gap-1 cursor-pointer'>
           <svg
             xmlns="http://www.w3.org/2000/svg" 
             fill="none" 
@@ -77,7 +77,7 @@ const Posts = (props) => {
           10
         </div>
 
-        <div className='flex items-center gap-1'>
+        <div className='flex items-center gap-1 cursor-pointer'>
           <svg 
             xmlns="http://www.w3.org/2000/svg" 
             fill="none" 
