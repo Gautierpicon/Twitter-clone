@@ -12,7 +12,7 @@ A front-end project for a Twitter-clone application
 
 ## Tech Stack
 
-**Client:** React, TailwindCSS
+**Client:** vite + React, TailwindCSS
 
 **Server:** This project do not use backend
 
