@@ -4,7 +4,7 @@ const BottomNav = ({toggleDarkMode, darkMode}) => {
   return (
     <ul className='fixed bottom-0 flex w-full list-none justify-around border-t bg-white/60 p-3 shadow-lg backdrop-blur-md xl:hidden dark:border-gray-700 dark:border-t-gray-700 dark:bg-black/60 dark:text-white dark:hover:bg-gray-900'>
 
-      <li className='rounded-full p-3 transition colors duration-200 hover:bg-gray-100'>
+      <li className='rounded-full p-3 transition colors duration-200 hover:bg-gray-100 dark:hover:bg-gray-900'>
           <a href='#' className='flex items-center justify-start gap-2 text-base hover:text-blue-500'>
             <svg
               xmlns="http://www.w3.org/2000/svg"
