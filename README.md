@@ -15,23 +15,13 @@ A front-end project for a Twitter-clone application
 **Client:** vite + React, TailwindCSS
 
 **Server:** This project do not use backend
-
-
-## Installation
-
-Install my-project with npm
-
-```bash
-  npm install Twitter-clone
-  cd Twitter-clone
-```
     
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://gautierpicon.github.io/Twitter-clone/
+  git clone https://gautierpicon.github.io/Twitter-clone.git
 ```
 
 Go to the project directory
@@ -49,7 +39,7 @@ Install dependencies
 Start the server
 
 ```bash
-  npm run start
+  npm run dev
 ```
 
 
